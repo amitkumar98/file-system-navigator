@@ -3,14 +3,14 @@ import "./ExpandViewStyles.css";
 import LeafNode from "../LeafNode";
 import ParentNode from "../ParentNode";
 
-const ExpandView = ({ rootLabel, childItems, id }) => {
+const ExpandView = ({ label, childItems, id }) => {
   const [open, setOpen] = useState(false);
 
   return (
     <div className="expandview-root">
       {childItems && childItems.length > 0 && (
         <>
-          <ParentNode id={id} label={rootLabel} open={open} setOpen={setOpen} />
+          <ParentNode id={id} label={label} open={open} setOpen={setOpen} />
           {open &&
             childItems.map((item) => {
               if (!item.flag) {
@@ -23,7 +23,7 @@ const ExpandView = ({ rootLabel, childItems, id }) => {
               return (
                 <ExpandView
                   key={Math.random()}
-                  rootLabel={item.name}
+                  label={item.name}
                   childItems={item.items}
                   flag={item.flag}
                   id={typeof id !== "undefined" ? id : 1}
