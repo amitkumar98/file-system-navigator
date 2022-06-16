@@ -1,4 +1,5 @@
 import React from "react";
+import "./ParentNodeStyles.css";
 import { ReactComponent as ExpandRight } from "../../assets/Expand_right_light.svg";
 import { ReactComponent as ExpandDown } from "../../assets/Expand_down_light.svg";
 import { ReactComponent as FolderIcon } from "../../assets/Folder_fill.svg";

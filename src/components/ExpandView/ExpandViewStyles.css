@@ -6,22 +6,3 @@
     /* background-color: ; */
 }
 
-.expandview-container {
-    width: 100%;
-    /* height: 100%; */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* border: 1px solid red; */
-}
-
-.expandedview-container {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* margin-left: 30px; */
-    /* margin-left: 20px; */
-    /* border: 1px solid blue; */
-}
-
