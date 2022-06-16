@@ -26,7 +26,7 @@ const ExpandView = ({ label, childItems, id }) => {
                   label={item.name}
                   childItems={item.items}
                   flag={item.flag}
-                  id={typeof id !== "undefined" ? id : 1}
+                  id={typeof id !== "undefined" ? id + 1 : 1}
                 />
               );
             })}

@@ -1,18 +1,8 @@
 [
     {
-      "name": "root",
+      "name": "file-system-navigator",
       "flag": true,
       "items": [
-        {
-          "name": "data",
-          "flag": true,
-          "items": [
-            {
-              "name": "files.json",
-              "flag": false
-            }
-          ]
-        },
         {
           "name": "public",
           "flag": true,
@@ -28,21 +18,117 @@
           "flag": true,
           "items": [
             {
+              "name": "assets",
+              "flag": true,
+              "items": [
+                {
+                  "name": "Expand_down.svg",
+                  "flag": false
+                },
+                {
+                  "name": "Expand_right.svg",
+                  "flag": false
+                },
+                {
+                  "name": "File.svg",
+                  "flag": false
+                },
+                {
+                  "name": "Folder.svg",
+                  "flag": false
+                }
+              ]
+            },
+            {
+              "name": "components",
+              "flag": true,
+              "items": [
+                {
+                  "name": "ExpandView",
+                  "flag": true,
+                  "items": [
+                    {
+                      "name": "ExpandViewStyles.css",
+                      "flag": false
+                    },
+                    {
+                      "name": "index.js",
+                      "flag": false
+                    }
+                  ]
+                },
+                {
+                  "name": "ParentNode",
+                  "flag": true,
+                  "items": [
+                    {
+                      "name": "ParentNodeStyles.css",
+                      "flag": false
+                    },
+                    {
+                      "name": "index.js",
+                      "flag": false
+                    }
+                  ]
+                },
+                {
+                  "name": "LeafNode",
+                  "flag": true,
+                  "items": [
+                    {
+                      "name": "LeafNodeStyles.css",
+                      "flag": false
+                    },
+                    {
+                      "name": "index.js",
+                      "flag": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "data",
+              "flag": true,
+              "items": [
+                {
+                  "name": "files.json",
+                  "flag": false
+                }
+              ]
+            },
+            {
+              "name": "App.css",
+              "flag": false
+            },
+            {
               "name": "App.js",
               "flag": false
             },
             {
-              "name": "files.json",
+              "name": "index.css",
               "flag": false
             },
             {
-              "name": "styles.json",
+              "name": "index.js",
               "flag": false
             }
           ]
         },
         {
+          "name": ".gitignore",
+          "flag": false
+        },
+        {
           "name": "package.json",
+          "flag": false
+        },
+        {
+          "name": "README.md",
+          "flag": false
+        },
+        {
+          "name": "yarn.lock",
           "flag": false
         }
       ]

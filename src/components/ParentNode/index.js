@@ -1,8 +1,8 @@
 import React from "react";
 import "./ParentNodeStyles.css";
-import { ReactComponent as ExpandRight } from "../../assets/Expand_right_light.svg";
-import { ReactComponent as ExpandDown } from "../../assets/Expand_down_light.svg";
-import { ReactComponent as FolderIcon } from "../../assets/Folder_fill.svg";
+import { ReactComponent as ExpandRight } from "../../assets/Expand_right.svg";
+import { ReactComponent as ExpandDown } from "../../assets/Expand_down.svg";
+import { ReactComponent as FolderIcon } from "../../assets/Folder.svg";
 
 const ParentNode = ({ id, label, open, setOpen }) => {
   return (
@@ -10,7 +10,7 @@ const ParentNode = ({ id, label, open, setOpen }) => {
       className="parentnode-container"
       onClick={() => setOpen(!open)}
       style={{
-        marginLeft: typeof id !== "undefined" ? `${(id + 1) * 10}px` : 0,
+        marginLeft: typeof id !== "undefined" ? `${id * 10}px` : 0,
       }}
     >
       {open ? (
