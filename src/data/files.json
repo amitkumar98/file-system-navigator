@@ -1,0 +1,51 @@
+[
+    {
+      "name": "root",
+      "flag": true,
+      "items": [
+        {
+          "name": "data",
+          "flag": true,
+          "items": [
+            {
+              "name": "files.json",
+              "flag": false
+            }
+          ]
+        },
+        {
+          "name": "public",
+          "flag": true,
+          "items": [
+            {
+              "name": "index.html",
+              "flag": false
+            }
+          ]
+        },
+        {
+          "name": "src",
+          "flag": true,
+          "items": [
+            {
+              "name": "App.js",
+              "flag": false
+            },
+            {
+              "name": "files.json",
+              "flag": false
+            },
+            {
+              "name": "styles.json",
+              "flag": false
+            }
+          ]
+        },
+        {
+          "name": "package.json",
+          "flag": false
+        }
+      ]
+    }
+  ]
+  
