@@ -8,16 +8,17 @@ const ParentNode = ({ id, label, open, setOpen }) => {
   return (
     <div
       className="parentnode-container"
+      onClick={() => setOpen(!open)}
       style={{
         marginLeft: typeof id !== "undefined" ? `${(id + 1) * 10}px` : 0,
       }}
     >
       {open ? (
-        <ExpandDown onClick={() => setOpen(!open)} />
+        <ExpandDown className="nav-icons" />
       ) : (
-        <ExpandRight onClick={() => setOpen(!open)} />
+        <ExpandRight className="nav-icons" />
       )}
-      <FolderIcon />
+      <FolderIcon className="folder-icon" />
       <span>{label}</span>
     </div>
   );

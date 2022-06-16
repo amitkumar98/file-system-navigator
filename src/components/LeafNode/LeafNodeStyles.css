@@ -1,9 +1,12 @@
 .leafnode-container {
     width: 100%;
+    cursor: pointer;
+    margin-top: 4px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* margin-left: 30px; */
-    /* margin-left: 20px; */
-    /* border: 1px solid blue; */
+}
+
+.file-icon {
+    margin: 0 3px;
 }

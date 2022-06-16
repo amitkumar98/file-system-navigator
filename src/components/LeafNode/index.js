@@ -10,7 +10,7 @@ const LeafNode = ({ id, item }) => {
         marginLeft: typeof id !== "undefined" ? `${(id + 3) * 10}px` : 20,
       }}
     >
-      <File />
+      <File className="file-icon" />
       <span>{item.name}</span>
     </div>
   );

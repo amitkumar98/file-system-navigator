@@ -1,8 +1,12 @@
 .parentnode-container {
     width: 100%;
-    /* height: 100%; */
+    cursor: pointer;
     display: flex;
+    margin-top: 4px;
     justify-content: flex-start;
     align-items: center;
-    /* border: 1px solid red; */
+}
+
+.folder-icon {
+    margin-right: 3px;
 }
